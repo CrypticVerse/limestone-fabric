@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "limestonemod:block/raw_limestone_block"
+  }
+}

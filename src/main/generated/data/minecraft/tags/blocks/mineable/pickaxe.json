@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "limestonemod:limestone_block",
+    "limestonemod:deepslate_limestone_ore",
+    "limestonemod:limestone_ore",
+    "limestonemod:raw_limestone_block"
+  ]
+}

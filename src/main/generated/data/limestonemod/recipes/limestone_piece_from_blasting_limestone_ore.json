@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "limestone_piece",
+  "ingredient": {
+    "item": "limestonemod:limestone_ore"
+  },
+  "result": "limestonemod:limestone_piece"
+}

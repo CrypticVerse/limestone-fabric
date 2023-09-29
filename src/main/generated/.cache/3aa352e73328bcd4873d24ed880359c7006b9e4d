@@ -1,0 +1,8 @@
+// 1.20.2	2023-09-29T16:19:06.9893256	Limestone Mod/Block Loot Tables
+de24acf2c2e6e4f8270eec2c42711e9359ffdfef data\limestonemod\loot_tables\blocks\raw_limestone_block.json
+62e535cfadfb26240b36237a54394be9d5405de4 data\limestonemod\loot_tables\blocks\limestone_block.json
+2fce5010d6c37b97e69b0e322aeeac9c625883c1 data\limestonemod\loot_tables\blocks\deepslate_limestone_ore.json
+8fc9b8dd27647a607d9b21f17e21a3d544f7e55f data\limestonemod\loot_tables\blocks\limestone_wall.json
+041128e462e44904507a63d64bf0e1a1c76aecd6 data\limestonemod\loot_tables\blocks\limestone_ore.json
+6c7c828c1c62ff3f0ad109d6ac1abb5ce0dd7840 data\limestonemod\loot_tables\blocks\limestone_slab.json
+18b0a8d3f0a00324424dac75e60f8e57f6afd6ea data\limestonemod\loot_tables\blocks\limestone_stairs.json

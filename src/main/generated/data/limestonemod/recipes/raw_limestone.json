@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "limestonemod:raw_limestone_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "limestonemod:raw_limestone"
+  }
+}

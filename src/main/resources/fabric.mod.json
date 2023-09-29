@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "limestonemod",
+	"version": "${version}",
+	"name": "Limestone Mod",
+	"description": "This is a mod that adds limestone to the game!",
+	"authors": [
+		"CrypticVerse"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/limestone",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/limestonemod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+          "net.crypticverse.limestonemod.LimestoneMod"
+		],
+		"client": [
+          "net.crypticverse.limestonemod.LimestoneModClient"
+		],
+		"fabric-datagen": [
+			"net.crypticverse.limestonemod.LimestoneModDataGenerator"
+		]
+	},
+	"mixins": [
+		"limestonemod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": ">=1.20.1",
+		"java": ">=17",
+		"fabric-api": ">=0.88.1+1.20.1"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

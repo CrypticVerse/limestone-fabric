@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_limestone_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "limestonemod:limestone_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:limestone_piece_from_smelting_limestone_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_limestone_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:limestone_piece_from_smelting_limestone_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,21 @@
+{
+  "item.limestonemod.raw_limestone": "Raw Limestone",
+  "item.limestonemod.limestone_piece": "Limestone Piece",
+  "item.limestonemod.limestone_pickaxe": "Limestone Pickaxe",
+  "item.limestonemod.limestone_hoe": "Limestone Hoe",
+  "item.limestonemod.limestone_shovel": "Limestone Shovel",
+  "item.limestonemod.limestone_sword": "Limestone Sword",
+  "item.limestonemod.limestone_axe": "Limestone Axe",
+
+  "block.limestonemod.limestone_block": "Limestone Block",
+  "block.limestonemod.limestone_ore": "Limestone Ore",
+  "block.limestonemod.deepslate_limestone_ore": "Deepslate Limestone Ore",
+  "block.limestonemod.limestone_stairs": "Limestone Stairs",
+  "block.limestonemod.limestone_slab": "Limestone Slab",
+  "block.limestonemod.limestone_wall": "Limestone Wall",
+  "block.limestonemod.raw_limestone_block": "Raw Limestone Block",
+
+
+
+  "itemgroup.limestone": "Limestone Items"
+}

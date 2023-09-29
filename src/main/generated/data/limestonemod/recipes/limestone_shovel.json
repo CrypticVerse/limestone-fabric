@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "limestonemod:limestone_piece"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " L ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "limestonemod:limestone_shovel"
+  },
+  "show_notification": true
+}

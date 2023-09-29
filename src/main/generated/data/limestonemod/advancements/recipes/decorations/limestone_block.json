@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_limestone_piece": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "limestonemod:limestone_piece"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:limestone_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_limestone_piece"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:limestone_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}
