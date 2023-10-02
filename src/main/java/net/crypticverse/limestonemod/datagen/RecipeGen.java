@@ -30,6 +30,7 @@ public class RecipeGen extends FabricRecipeProvider {
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIMESTONE_SLAB, ModBlocks.LIMESTONE_BLOCK, 2);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIMESTONE_STAIRS, ModBlocks.LIMESTONE_BLOCK);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIMESTONE_WALL, ModBlocks.LIMESTONE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.DECORATIONS, ModBlocks.POLISHED_LIMESTONE, ModBlocks.LIMESTONE_BLOCK );
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.LIMESTONE_PIECE, RecipeCategory.DECORATIONS,
                 ModBlocks.LIMESTONE_BLOCK);
@@ -115,6 +116,12 @@ public class RecipeGen extends FabricRecipeProvider {
                 .input('L', ModBlocks.LIMESTONE_BLOCK)
                 .criterion(hasItem(ModBlocks.LIMESTONE_BLOCK), conditionsFromItem(ModBlocks.LIMESTONE_BLOCK))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.LIMESTONE_PILLAR)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.POLISHED_LIMESTONE ,4)
+                .pattern("LL ")
+                .pattern("LL ")
+                .input('L', ModBlocks.LIMESTONE_BLOCK)
+                .criterion(hasItem(ModBlocks.LIMESTONE_BLOCK), conditionsFromItem(ModBlocks.LIMESTONE_BLOCK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.POLISHED_LIMESTONE)));
     }
 
 

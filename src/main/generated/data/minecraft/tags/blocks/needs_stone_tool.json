@@ -4,6 +4,10 @@
     "limestonemod:limestone_block",
     "limestonemod:deepslate_limestone_ore",
     "limestonemod:limestone_ore",
-    "limestonemod:raw_limestone_block"
+    "limestonemod:raw_limestone_block",
+    "limestonemod:polished_limestone",
+    "limestonemod:limestone_stairs",
+    "limestonemod:limestone_slab",
+    "limestonemod:limestone_pillar"
   ]
 }

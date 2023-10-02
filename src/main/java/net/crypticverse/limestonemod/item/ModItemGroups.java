@@ -29,6 +29,8 @@ public class ModItemGroups {
                         entries.add(ModItems.LIMESTONE_AXE);
                         entries.add(ModBlocks.LIMESTONE_WALL);
                         entries.add(ModBlocks.RAW_LIMESTONE_BLOCK);
+                        entries.add(ModBlocks.LIMESTONE_PILLAR);
+                        entries.add(ModBlocks.POLISHED_LIMESTONE);
                     }).build());
     public static void registerItemGroups() {
         LimestoneMod.LOGGER.info("Registering Groups for " + LimestoneMod.MOD_ID);

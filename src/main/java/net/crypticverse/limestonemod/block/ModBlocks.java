@@ -30,6 +30,9 @@ public class ModBlocks {
     public static final Block LIMESTONE_PILLAR = registerBlock("limestone_pillar",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.QUARTZ_PILLAR)));
 
+    public static final Block POLISHED_LIMESTONE = registerBlock("polished_limestone",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(LimestoneMod.MOD_ID, name), block);
