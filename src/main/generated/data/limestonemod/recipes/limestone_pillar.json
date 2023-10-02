@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "limestonemod:limestone_block"
+    }
+  },
+  "pattern": [
+    " L ",
+    " L "
+  ],
+  "result": {
+    "count": 2,
+    "item": "limestonemod:limestone_pillar"
+  },
+  "show_notification": true
+}

@@ -1,11 +1,10 @@
-package net.crypticverse.limestonemod.datagen.recipe;
+package net.crypticverse.limestonemod.datagen;
 
 import net.crypticverse.limestonemod.block.ModBlocks;
 import net.crypticverse.limestonemod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
-import net.minecraft.data.server.recipe.RecipeProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
@@ -14,10 +13,10 @@ import net.minecraft.util.Identifier;
 
 import java.util.List;
 
-public class ModRecipeProvider extends FabricRecipeProvider {
+public class RecipeGen extends FabricRecipeProvider {
     private static final List<ItemConvertible> LIMESTONE_SMELTABLES = List.of(ModItems.RAW_LIMESTONE,
             ModBlocks.LIMESTONE_ORE, ModBlocks.DEEPSLATE_LIMESTONE_ORE);
-    public ModRecipeProvider(FabricDataOutput output) {
+    public RecipeGen(FabricDataOutput output) {
         super(output);
     }
 
@@ -27,8 +26,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 0.7f, 200, "limestone_piece");
         offerBlasting(exporter, LIMESTONE_SMELTABLES, RecipeCategory.MISC, ModItems.LIMESTONE_PIECE,
                 0.7f, 200, "limestone_piece");
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIMESTONE_PILLAR, ModBlocks.LIMESTONE_BLOCK);
         offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIMESTONE_SLAB, ModBlocks.LIMESTONE_BLOCK, 2);
-        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS ,ModBlocks.LIMESTONE_STAIRS, ModBlocks.LIMESTONE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIMESTONE_STAIRS, ModBlocks.LIMESTONE_BLOCK);
+        offerStonecuttingRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, ModBlocks.LIMESTONE_WALL, ModBlocks.LIMESTONE_BLOCK);
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.LIMESTONE_PIECE, RecipeCategory.DECORATIONS,
                 ModBlocks.LIMESTONE_BLOCK);
