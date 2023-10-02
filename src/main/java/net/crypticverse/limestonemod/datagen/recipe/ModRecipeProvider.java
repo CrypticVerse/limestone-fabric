@@ -1,4 +1,4 @@
-package net.crypticverse.limestonemod.datagen;
+package net.crypticverse.limestonemod.datagen.recipe;
 
 import net.crypticverse.limestonemod.block.ModBlocks;
 import net.crypticverse.limestonemod.item.ModItems;
@@ -107,6 +107,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('L', ModBlocks.LIMESTONE_BLOCK)
                 .criterion(hasItem(ModBlocks.LIMESTONE_BLOCK), conditionsFromItem(ModBlocks.LIMESTONE_BLOCK))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.LIMESTONE_WALL)));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.LIMESTONE_PILLAR, 2)
+                .pattern(" L ")
+                .pattern(" L ")
+                .input('L', ModBlocks.LIMESTONE_BLOCK)
+                .criterion(hasItem(ModBlocks.LIMESTONE_BLOCK), conditionsFromItem(ModBlocks.LIMESTONE_BLOCK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.LIMESTONE_PILLAR)));
     }
 
 

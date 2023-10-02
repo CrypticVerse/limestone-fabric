@@ -1,6 +1,8 @@
 package net.crypticverse.limestonemod;
 
 import net.crypticverse.limestonemod.datagen.*;
+import net.crypticverse.limestonemod.datagen.recipe.ModRecipeProvider;
+import net.crypticverse.limestonemod.datagen.recipe.StoneCuttingRecipes;
 import net.crypticverse.limestonemod.world.ModConfiguredFeatures;
 import net.crypticverse.limestonemod.world.ModPlacedFeatures;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
@@ -19,6 +21,7 @@ public class LimestoneModDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
 		pack.addProvider(ModWorldGenerator::new);
+		pack.addProvider(StoneCuttingRecipes::new);
 
 	}
 

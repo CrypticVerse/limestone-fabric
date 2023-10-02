@@ -27,6 +27,9 @@ public class ModBlocks {
     public static final Block RAW_LIMESTONE_BLOCK = registerBlock("raw_limestone_block",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
 
+    public static final Block LIMESTONE_PILLAR = registerBlock("limestone_pillar",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.QUARTZ_PILLAR)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(LimestoneMod.MOD_ID, name), block);

@@ -1,12 +1,11 @@
 package net.crypticverse.limestonemod.datagen;
 
+import net.crypticverse.limestonemod.LimestoneMod;
 import net.crypticverse.limestonemod.block.ModBlocks;
 import net.crypticverse.limestonemod.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
-import net.minecraft.data.client.BlockStateModelGenerator;
-import net.minecraft.data.client.ItemModelGenerator;
-import net.minecraft.data.client.Models;
+import net.minecraft.data.client.*;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -19,6 +18,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DEEPSLATE_LIMESTONE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIMESTONE_ORE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RAW_LIMESTONE_BLOCK);
+        blockStateModelGenerator.registerAxisRotated(ModBlocks.LIMESTONE_PILLAR, TexturedModel.END_FOR_TOP_CUBE_COLUMN ,TexturedModel.END_FOR_TOP_CUBE_COLUMN_HORIZONTAL);
 
         limestonePool.stairs(ModBlocks.LIMESTONE_STAIRS);
         limestonePool.slab(ModBlocks.LIMESTONE_SLAB);
