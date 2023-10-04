@@ -1,7 +1,7 @@
 package net.crypticverse.limestonemod.world;
 
 import net.crypticverse.limestonemod.LimestoneMod;
-import net.crypticverse.limestonemod.block.ModBlocks;
+import net.crypticverse.limestonemod.block.LimestoneBlocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
@@ -21,8 +21,8 @@ public class ModConfiguredFeatures {
         RuleTest deepslateStoneReplaceables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
 
         List<OreFeatureConfig.Target> overworldLimestoneOres =
-                List.of(OreFeatureConfig.createTarget(stoneReplaceables, ModBlocks.LIMESTONE_ORE.getDefaultState()),
-                        OreFeatureConfig.createTarget(deepslateStoneReplaceables, ModBlocks.DEEPSLATE_LIMESTONE_ORE.getDefaultState()));
+                List.of(OreFeatureConfig.createTarget(stoneReplaceables, LimestoneBlocks.LIMESTONE_ORE.getDefaultState()),
+                        OreFeatureConfig.createTarget(deepslateStoneReplaceables, LimestoneBlocks.DEEPSLATE_LIMESTONE_ORE.getDefaultState()));
 
         register(context, LIMESTONE_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldLimestoneOres, 10));
     }

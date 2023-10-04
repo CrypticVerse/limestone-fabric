@@ -1,13 +1,12 @@
 package net.crypticverse.limestonemod.item;
 
-import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
 import java.util.function.Supplier;
 
-public enum ModToolMaterial implements ToolMaterial {
-    LIMESTONE(2, 100, 3, 2, 15, () -> Ingredient.ofItems(ModItems.LIMESTONE_PIECE));
+public enum LimestoneToolMaterial implements ToolMaterial {
+    LIMESTONE(2, 100, 3, 2, 15, () -> Ingredient.ofItems(LimestoneItems.LIMESTONE_PIECE));
     private final int miningLevel;
     private final int itemDurability;
     private final int miningSpeed;
@@ -15,7 +14,7 @@ public enum ModToolMaterial implements ToolMaterial {
     private final int enchantability;
     private final Supplier<Ingredient> repairIngredient;
 
-    ModToolMaterial(int miningLevel, int itemDurability, int miningSpeed, int attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
+    LimestoneToolMaterial(int miningLevel, int itemDurability, int miningSpeed, int attackDamage, int enchantability, Supplier<Ingredient> repairIngredient) {
         this.miningLevel = miningLevel;
         this.itemDurability = itemDurability;
         this.miningSpeed = miningSpeed;

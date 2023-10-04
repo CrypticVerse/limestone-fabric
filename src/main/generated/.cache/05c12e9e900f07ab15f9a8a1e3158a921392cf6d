@@ -1,4 +1,4 @@
-// 1.20.2	2023-10-02T14:38:24.091317	Limestone Mod/Tags for minecraft:block
-fc2a71df0612d5fbcfb37e8318478972647dc810 data\minecraft\tags\blocks\mineable\pickaxe.json
-a3d4210fa7526a75906e59acd54cf45682db85f8 data\minecraft\tags\blocks\walls.json
-fc2a71df0612d5fbcfb37e8318478972647dc810 data\minecraft\tags\blocks\needs_stone_tool.json
+// 1.20.2	2023-10-04T13:01:52.8159052	Limestone Mod/Tags for minecraft:block
+1c4afb07348460424299054453f889c4b8afe3cc data\minecraft\tags\blocks\mineable\pickaxe.json
+10e48693524b5d6b138ea67f30ee90c2c0013091 data\minecraft\tags\blocks\walls.json
+0f42969123267e8ff034c8aea911664579e364e1 data\minecraft\tags\blocks\needs_stone_tool.json

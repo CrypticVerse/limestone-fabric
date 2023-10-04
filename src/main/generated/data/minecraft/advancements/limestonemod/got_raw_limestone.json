@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:limestonemod/root",
+  "criteria": {
+    "got_raw_limestone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "limestonemod:raw_limestone"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Get a piece of Raw Limestone"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "limestonemod:raw_limestone"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Hmm... Limey"
+    }
+  },
+  "requirements": [
+    [
+      "got_raw_limestone"
+    ]
+  ],
+  "rewards": {
+    "experience": 1000
+  },
+  "sends_telemetry_event": true
+}

@@ -1,8 +1,8 @@
 package net.crypticverse.limestonemod;
 
-import net.crypticverse.limestonemod.block.ModBlocks;
-import net.crypticverse.limestonemod.item.ModItemGroups;
-import net.crypticverse.limestonemod.item.ModItems;
+import net.crypticverse.limestonemod.block.LimestoneBlocks;
+import net.crypticverse.limestonemod.item.LimestoneItemGroup;
+import net.crypticverse.limestonemod.item.LimestoneItems;
 import net.crypticverse.limestonemod.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -14,9 +14,9 @@ public class LimestoneMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItems.registerModItems();
-		ModItemGroups.registerItemGroups();
-		ModBlocks.registerModBlocks();
+		LimestoneItems.registerModItems();
+		LimestoneItemGroup.registerItemGroups();
+		LimestoneBlocks.registerModBlocks();
 		ModWorldGeneration.generatedModWorldGen();
 	}
 }

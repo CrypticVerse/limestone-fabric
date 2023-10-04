@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": {
+      "item": "limestonemod:polished_limestone"
+    }
+  },
+  "pattern": [
+    "LLL",
+    "LLL"
+  ],
+  "result": {
+    "count": 6,
+    "item": "limestonemod:polished_limestone_wall"
+  },
+  "show_notification": true
+}

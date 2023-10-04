@@ -1,7 +1,7 @@
 package net.crypticverse.limestonemod.datagen;
 
-import net.crypticverse.limestonemod.block.ModBlocks;
-import net.crypticverse.limestonemod.item.ModItems;
+import net.crypticverse.limestonemod.block.LimestoneBlocks;
+import net.crypticverse.limestonemod.item.LimestoneItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 
@@ -12,16 +12,23 @@ public class LootTablesGen extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        addDrop(ModBlocks.LIMESTONE_BLOCK);
-        addDrop(ModBlocks.LIMESTONE_STAIRS);
-        addDrop(ModBlocks.LIMESTONE_WALL);
-        addDrop(ModBlocks.RAW_LIMESTONE_BLOCK);
-        addDrop(ModBlocks.LIMESTONE_PILLAR);
-        addDrop(ModBlocks.POLISHED_LIMESTONE);
+        addDrop(LimestoneBlocks.LIMESTONE_BLOCK);
+        addDrop(LimestoneBlocks.LIMESTONE_STAIRS);
+        addDrop(LimestoneBlocks.LIMESTONE_WALL);
+        addDrop(LimestoneBlocks.RAW_LIMESTONE_BLOCK);
+        addDrop(LimestoneBlocks.LIMESTONE_PILLAR);
+        addDrop(LimestoneBlocks.POLISHED_LIMESTONE);
+        addDrop(LimestoneBlocks.POLISHED_LIMESTONE_STAIRS);
+        addDrop(LimestoneBlocks.POLISHED_LIMESTONE_WALL);
+        addDrop(LimestoneBlocks.LIMESTONE_BRICKS);
+        addDrop(LimestoneBlocks.LIMESTONE_BRICK_WALL);
+        addDrop(LimestoneBlocks.LIMESTONE_BRICK_STAIRS);
 
-        addDrop(ModBlocks.LIMESTONE_ORE, oreDrops(ModBlocks.LIMESTONE_ORE, ModItems.RAW_LIMESTONE));
-        addDrop(ModBlocks.DEEPSLATE_LIMESTONE_ORE, oreDrops(ModBlocks.DEEPSLATE_LIMESTONE_ORE, ModItems.RAW_LIMESTONE));
+        addDrop(LimestoneBlocks.LIMESTONE_ORE, oreDrops(LimestoneBlocks.LIMESTONE_ORE, LimestoneItems.RAW_LIMESTONE));
+        addDrop(LimestoneBlocks.DEEPSLATE_LIMESTONE_ORE, oreDrops(LimestoneBlocks.DEEPSLATE_LIMESTONE_ORE, LimestoneItems.RAW_LIMESTONE));
 
-        addDrop(ModBlocks.LIMESTONE_SLAB, slabDrops(ModBlocks.LIMESTONE_SLAB));
+        addDrop(LimestoneBlocks.LIMESTONE_SLAB, slabDrops(LimestoneBlocks.LIMESTONE_SLAB));
+        addDrop(LimestoneBlocks.LIMESTONE_BRICK_SLAB, slabDrops(LimestoneBlocks.LIMESTONE_BRICK_SLAB));
+        addDrop(LimestoneBlocks.POLISHED_LIMESTONE_SLAB, slabDrops(LimestoneBlocks.POLISHED_LIMESTONE_SLAB));
     }
 }

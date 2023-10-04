@@ -1,6 +1,5 @@
 package net.crypticverse.limestonemod.world;
 import net.crypticverse.limestonemod.LimestoneMod;
-import net.crypticverse.limestonemod.block.ModBlocks;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;

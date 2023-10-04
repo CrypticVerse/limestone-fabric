@@ -1,9 +1,8 @@
 package net.crypticverse.limestonemod.datagen;
 
-import net.crypticverse.limestonemod.block.ModBlocks;
+import net.crypticverse.limestonemod.block.LimestoneBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.minecraft.block.Block;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 
@@ -17,26 +16,40 @@ public class BlockTagGen extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.LIMESTONE_BLOCK)
-                .add(ModBlocks.DEEPSLATE_LIMESTONE_ORE)
-                .add(ModBlocks.LIMESTONE_ORE)
-                .add(ModBlocks.RAW_LIMESTONE_BLOCK)
-                .add(ModBlocks.POLISHED_LIMESTONE)
-                .add(ModBlocks.LIMESTONE_STAIRS)
-                .add(ModBlocks.LIMESTONE_SLAB)
-                .add(ModBlocks.LIMESTONE_PILLAR);
+                .add(LimestoneBlocks.LIMESTONE_BLOCK)
+                .add(LimestoneBlocks.DEEPSLATE_LIMESTONE_ORE)
+                .add(LimestoneBlocks.LIMESTONE_ORE)
+                .add(LimestoneBlocks.RAW_LIMESTONE_BLOCK)
+                .add(LimestoneBlocks.POLISHED_LIMESTONE)
+                .add(LimestoneBlocks.POLISHED_LIMESTONE_SLAB)
+                .add(LimestoneBlocks.POLISHED_LIMESTONE_STAIRS)
+                .add(LimestoneBlocks.POLISHED_LIMESTONE_WALL)
+                .add(LimestoneBlocks.LIMESTONE_STAIRS)
+                .add(LimestoneBlocks.LIMESTONE_SLAB)
+                .add(LimestoneBlocks.LIMESTONE_PILLAR)
+                .add(LimestoneBlocks.LIMESTONE_BRICKS)
+                .add(LimestoneBlocks.LIMESTONE_BRICK_STAIRS)
+                .add(LimestoneBlocks.LIMESTONE_BRICK_SLAB);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
-                .add(ModBlocks.LIMESTONE_BLOCK)
-                .add(ModBlocks.DEEPSLATE_LIMESTONE_ORE)
-                .add(ModBlocks.LIMESTONE_ORE)
-                .add(ModBlocks.RAW_LIMESTONE_BLOCK)
-                .add(ModBlocks.POLISHED_LIMESTONE)
-                .add(ModBlocks.LIMESTONE_STAIRS)
-                .add(ModBlocks.LIMESTONE_SLAB)
-                .add(ModBlocks.LIMESTONE_PILLAR);
+                .add(LimestoneBlocks.LIMESTONE_BLOCK)
+                .add(LimestoneBlocks.DEEPSLATE_LIMESTONE_ORE)
+                .add(LimestoneBlocks.LIMESTONE_ORE)
+                .add(LimestoneBlocks.RAW_LIMESTONE_BLOCK)
+                .add(LimestoneBlocks.POLISHED_LIMESTONE)
+                .add(LimestoneBlocks.POLISHED_LIMESTONE_SLAB)
+                .add(LimestoneBlocks.POLISHED_LIMESTONE_STAIRS)
+                .add(LimestoneBlocks.POLISHED_LIMESTONE_WALL)
+                .add(LimestoneBlocks.LIMESTONE_STAIRS)
+                .add(LimestoneBlocks.LIMESTONE_SLAB)
+                .add(LimestoneBlocks.LIMESTONE_BRICKS)
+                .add(LimestoneBlocks.LIMESTONE_BRICK_SLAB)
+                .add(LimestoneBlocks.LIMESTONE_BRICK_STAIRS)
+                .add(LimestoneBlocks.LIMESTONE_PILLAR);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
-                .add(ModBlocks.LIMESTONE_WALL);
+                .add(LimestoneBlocks.LIMESTONE_WALL)
+                .add(LimestoneBlocks.LIMESTONE_BRICK_WALL)
+                .add(LimestoneBlocks.POLISHED_LIMESTONE_WALL);
     }
 }

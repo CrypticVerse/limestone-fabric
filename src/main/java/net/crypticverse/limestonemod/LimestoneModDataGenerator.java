@@ -19,6 +19,7 @@ public class LimestoneModDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModelsGen::new);
 		pack.addProvider(WorldGen::new);
 		pack.addProvider(RecipeGen::new);
+		pack.addProvider(AdvancementGen::new);
 	}
 
 	@Override

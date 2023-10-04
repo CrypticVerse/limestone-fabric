@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "limestonemod:limestone_wall"
+    "limestonemod:limestone_wall",
+    "limestonemod:limestone_brick_wall",
+    "limestonemod:polished_limestone_wall"
   ]
 }

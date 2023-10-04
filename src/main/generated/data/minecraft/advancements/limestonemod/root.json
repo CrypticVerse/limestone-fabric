@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "got_limestone_piece": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "limestonemod:limestone_piece"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/limestone_block.png",
+    "description": {
+      "text": "This shouldn't exist..."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "limestonemod:limestone_pillar"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Limestone Mod"
+    }
+  },
+  "requirements": [
+    [
+      "got_limestone_piece"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

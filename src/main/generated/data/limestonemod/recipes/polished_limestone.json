@@ -7,11 +7,12 @@
     }
   },
   "pattern": [
-    "LL ",
-    "LL "
+    "LLL",
+    "LLL",
+    "LLL"
   ],
   "result": {
-    "count": 4,
+    "count": 9,
     "item": "limestonemod:polished_limestone"
   },
   "show_notification": true

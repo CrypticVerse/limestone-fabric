@@ -6,8 +6,14 @@
     "limestonemod:limestone_ore",
     "limestonemod:raw_limestone_block",
     "limestonemod:polished_limestone",
+    "limestonemod:polished_limestone_slab",
+    "limestonemod:polished_limestone_stairs",
+    "limestonemod:polished_limestone_wall",
     "limestonemod:limestone_stairs",
     "limestonemod:limestone_slab",
+    "limestonemod:limestone_bricks",
+    "limestonemod:limestone_brick_slab",
+    "limestonemod:limestone_brick_stairs",
     "limestonemod:limestone_pillar"
   ]
 }

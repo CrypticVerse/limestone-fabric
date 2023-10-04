@@ -1,0 +1,41 @@
+{
+  "parent": "minecraft:limestonemod/got_raw_limestone",
+  "criteria": {
+    "got_limestone_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "limestonemod:limestone_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Craft a Limestone Block"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "limestonemod:limestone_block"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Nice Decor"
+    }
+  },
+  "requirements": [
+    [
+      "got_limestone_block"
+    ]
+  ],
+  "rewards": {
+    "experience": 1000
+  },
+  "sends_telemetry_event": true
+}

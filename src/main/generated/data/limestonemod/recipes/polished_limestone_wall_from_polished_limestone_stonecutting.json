@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "limestonemod:polished_limestone"
+  },
+  "result": "limestonemod:polished_limestone_wall"
+}
