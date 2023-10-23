@@ -6,10 +6,7 @@ This is a mod that adds different limey-related blocks to the game!
 
 To install this mod on the client, place the `.jar` file in your `mods` folder.
 
-For servers, place the file in the `mods` folder on the server. *Please note that the mod is both server and client side.*
-
-### Current Features include:
-Maple trees and the Maple forest biome
+For servers, place the file in the `mods` folder on the server. *Please note that the mod is both server and client side.
 
 ## Compatibility
 
