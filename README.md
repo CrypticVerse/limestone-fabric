@@ -1,6 +1,6 @@
 # [Limestone](https://modrinth.com/mod/limestone-mod)
 
-This is a mod that adds different biomes to the game!
+This is a mod that adds different limey-related blocks to the game!
 
 ## Installation
 
