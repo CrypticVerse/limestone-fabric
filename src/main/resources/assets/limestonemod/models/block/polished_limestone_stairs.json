@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "limestonemod:block/polished_limestone",
+    "side": "limestonemod:block/polished_limestone",
+    "top": "limestonemod:block/polished_limestone"
+  }
+}

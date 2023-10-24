@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "limestonemod:block/polished_limestone_stairs"
+    "all": "limestonemod:block/limestone_block"
   }
 }

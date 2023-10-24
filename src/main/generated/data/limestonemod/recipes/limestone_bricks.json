@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "L": {
-      "item": "limestonemod:limestone_block"
+      "item": "limestonemod:polished_limestone"
     }
   },
   "pattern": [
@@ -12,7 +12,7 @@
   ],
   "result": {
     "count": 4,
-    "item": "limestonemod:polished_limestone"
+    "item": "limestonemod:limestone_bricks"
   },
   "show_notification": true
 }
